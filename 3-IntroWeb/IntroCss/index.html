@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase CSS</title>
+
+    <!--Opcion 1-->
+    
+    <!--<link rel="stylesheet" href="/IntroCss/css/style.css">-->
+    
+    <!--Opcion 2-->
+    <!--Selectores-->
+    
+    <style type = "text/css" media ="all">
+       
+       *{
+            font-size: 1rem; /*selector universal*/
+        }
+        
+        p{
+            color:chocolate; /*selector elementos*/
+        }
+        p.division1{
+            color: aqua; /*selector clase*/
+        }
+        div.nuevo{
+            color: #ff00aa; /*ff vale 15*/
+        }
+    </style>
+   
+</head>
+<body>
+
+    <!--Opcion 3-->
+    <!--lo de abajo tiene más prioridad que <style> si no tuviera h1 la etiqueta style, iría con la etiqueta de style en head-->
+    <!--
+    <h1 style = "color: violet; text-align: justify;">Página de prueba</h1>-->
+    <h1>Página prueba</h1>
+
+    <div class="nuevo">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos ad magnam sit, ullam rerum magni natus a itaque labore hic possimus cum quibusdam aliquam suscipit velit? Error, adipisci modi!
+    </div>
+    <p class="division1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet fugit impedit accusantium officiis dicta, exercitationem nemo aspernatur fugiat facere sit repudiandae repellat dignissimos voluptatibus provident cum optio nostrum. Atque, autem?
+    </p>
+    
+
+    
+
+
+</body>
+</html>
