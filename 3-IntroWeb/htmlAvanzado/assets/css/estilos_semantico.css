@@ -1,0 +1,35 @@
+*{
+    font-size: 1.5rem;
+}
+header{
+    background-color: rgb(209, 167, 112);
+    height: 200px;
+    width: auto; /*se ajusta*/
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    width: auto;
+    height: 600px;
+    
+}
+/*aside{
+    background-color: rgb(186, 117, 12);
+    width: auto;
+    height: 600px;
+    display: flex;
+}*/
+footer{
+    background-color: rgb(150, 46, 1);
+    width: auto;
+    height: 150px;
+}
+.cuadro{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+}

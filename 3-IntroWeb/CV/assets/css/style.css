@@ -1,0 +1,34 @@
+header{
+    background-color: rgb(194, 180, 163);
+    height: 30%;
+    
+}
+main{
+    background-color: rgb(238, 216, 192);
+    padding-top: 2%;
+}
+h1{
+    text-align: center;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+}
+.contenedor1{
+    width: 100%;
+    height: auto;
+    
+}
+.img1_c1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto_cv{
+    font-family: Montserrat;
+    margin-left: 25%;
+    font-size: 1em;
+    margin-right: 25%;
+}
+
+

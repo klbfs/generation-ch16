@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <h1>HTML Avanzado</h1>
+    <hr>
+
+    <h2>Listas</h2>
+    <p>Lista desordenada</p>
+
+    <!--<ul style="list-style-type: circle;"> --en etiqueta padre va atributo-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+
+    <p>Lista ordenada</p>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+    </ol>
+        
+    <p>Anidar listas</p>
+    <ul>
+        <li>Elemento 1
+            <ul>
+                <!--li*2{subelemento}-->
+                <li class="subelement">Subelemento</li>
+                <li class="subelement">Subelemento</li>
+            </ul>
+        </li>
+        <li>Elemento 2</li>
+        <!--li*2-->
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+                
+    </ul>
+
+    <p>Atributo start</p>
+    <ol start="6">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    <h2>Elementos en bloque y en línea</h2>
+    <p>Elemento en bloque</p>
+    <!--Bloque: un elemento en bloque ocupa todo el renglón-->
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, debitis?
+    </div>
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, eum.
+    </div>
+
+    <!--En línea-->
+    <!--sólo muestran el espacio necesario para que se muestre el contenido-->
+    <p>Elemento en línea</p>
+    <a href="#">Enlace1</a>
+    <a href="#">Enlace2</a>
+    <a href="#">Enlace3</a>
+    <a href="#">Enlace4</a>
+
+    <span>Este es un span</span><!--necesita siempre contenido para mostrarse (contrario a div)-->
+
+    <!--Cambiando ancho de elemento en línea-->
+
+    <p>Lorem ipsum dolor, <strong>amet consectetur adipisicing elit.</strong>   Aut harum in vel officia maxime, quos deleniti, odio consequatur nulla voluptate facere corrupti perspiciatis! Eveniet numquam consequuntur facere illum corrupti aspernatur <em>accusamus</em> impedit nostrum sequi possimus facilis, sed hic culpa, dignissimos ipsam. Nam, ipsa magni culpa accusamus rem ab, vel alias quasi <mark>labore tenetur quam necessitatibus facilis aperiam odit neque</mark> asperiores velit adipisci nihil ad cupiditate sed? Et cum enim asperiores facilis tempora sint? Quis recusandae, laborum eligendi voluptatibus suscipit quasi molestias eos possimus consequatur expedita! Ea repudiandae <span>excepturi quasi necessitatibus repellendus beatae?</span>Eaque perferendis labore laborum nam asperiores excepturi quia.
+
+    </p>
+    
+</body>
+</html>

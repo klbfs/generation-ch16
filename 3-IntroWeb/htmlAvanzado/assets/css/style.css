@@ -1,0 +1,48 @@
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: decimal;
+}
+p{
+    font-family: sans-serif;
+}
+.subelement{
+    font-style: italic;
+}
+ul>li>ul{
+    color: darkmagenta;
+    /*border: 2px dashed blue; /*dashed, dotted, solid*/
+}
+h1{
+    background-color: cornflowerblue;
+}
+
+/*para que un div que está vacío se muestre debe tener:
+width y height
+*/
+div{
+    display: inline-block; /*para pasar a elemento en línea*/
+    background-color: pink;
+    /*width: 200px;
+    height:200px;*/
+    width: 200px;
+}
+a{
+    display: flex;
+    background-color: aqua;
+    width: 200px; /*no se aplica como con elemento de bloque si no pongo display*/
+    height: 100px;
+    border: 1px solid red;
+}
+span{
+    /*background-color: aquamarine;*/
+    font-size: large;
+    font-family: cursive;
+    font-weight: 700;
+    border: 1px dashed blue;
+    
+}
+div.ancho{
+    display: block;
+}
