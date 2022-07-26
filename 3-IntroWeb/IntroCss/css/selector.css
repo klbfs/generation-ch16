@@ -1,0 +1,27 @@
+/*Selector descendiente
+div{
+    border: red 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+div p{
+    color: red;
+}
+div li p{
+    background-color: darksalmon;
+}
+*/
+
+/*Selector hijo*/
+div{
+    border: red 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+div>p{ /*sólo afecta a los párrafos que no están dentro de otro tag*/
+    color: red;
+}
+/*Selector padre*/
+div+p{
+    color: blue;
+}

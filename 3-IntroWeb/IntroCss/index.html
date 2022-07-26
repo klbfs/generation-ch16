@@ -6,49 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase CSS</title>
 
-    <!--Opcion 1-->
+    <!--Opcion 1 style-->
     
-    <!--<link rel="stylesheet" href="/IntroCss/css/style.css">-->
+    <link rel="stylesheet" href="/IntroCss/css/style.css">
+    <link rel="stylesheet" href="../IntroCss/css/selector.css">
     
-    <!--Opcion 2-->
+    <!--Opcion 2 style-->
     <!--Selectores-->
     
     <style type = "text/css" media ="all">
        
        *{
-            font-size: 1rem; /*selector universal*/
+            font-size: 1.5rem; /*selector universal*/
         }
         
         p{
             color:chocolate; /*selector elementos*/
         }
-        p.division1{
-            color: aqua; /*selector clase*/
+        p.aviso{
+            color: aqua; /*selector clase + tag html*/
         }
         div.nuevo{
             color: #ff00aa; /*ff vale 15*/
         }
     </style>
-   
+
+
+    
+    <style>/*Selector universal + clase*/
+        *.univ{
+            color: blue;
+        }
+
+    </style>
+    <style>
+        .univ1{
+            color: crimson;
+        }
+    </style>
+
+
+    <style>/*Selector ID, E#e, almohadilla*/
+        p#alm1{
+            color: darkgreen;
+        }
+    </style>
+
+    <style>/*Selector ID, E#e, almohadilla sin esp. tag*/
+        #alm2{
+            color: rgb(77, 77, 3);
+        }
+    </style>
+
+    <style>
+        *#alm3{
+            color: grey;
+        }
+    </style>
 </head>
+
+
+
 <body>
 
-    <!--Opcion 3-->
-    <!--lo de abajo tiene más prioridad que <style> si no tuviera h1 la etiqueta style, iría con la etiqueta de style en head-->
-    <!--
+    <p>Esto es un párrafo</p>
+    <div>
+        <ul>
+            
+            <li>Uno lista
+                <p>Esto es un párrafo interno</p>
+            </li>
+            
+        </ul>
+        <p>Este es otro párrafo</p>
+    </div>
+
+    
+    <!--Opcion 3 style-->
+    <!--el atributo <style> tiene más prioridad que etiqueta de style en head-->
+    <!--Ejemplo Opcion 3:
     <h1 style = "color: violet; text-align: justify;">Página de prueba</h1>-->
     <h1>Página prueba</h1>
 
+    <!--Selector ID-->
+    <p id="alm1">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo assumenda harum, cum at incidunt non nesciunt veritatis eum, unde quia excepturi suscipit qui quos? Perspiciatis eius deserunt quam sunt tempore.
+    </p>
+
+    <p id="alm2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, aliquid. Blanditiis iusto architecto, dicta nam aliquam numquam sunt voluptas exercitationem nostrum facere vel quibusdam animi, tempora non eos perspiciatis excepturi.
+    </p>
+
+    <p id="alm3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet doloribus, tempore eius ab delectus excepturi esse sit sunt ut ipsum, vel nam iste velit quo? Sint pariatur placeat amet. Cum.
+    </p>
+
+    <!--Selector de clase E.e-->
     <div class="nuevo">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos ad magnam sit, ullam rerum magni natus a itaque labore hic possimus cum quibusdam aliquam suscipit velit? Error, adipisci modi!
     </div>
-    <p class="division1">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet fugit impedit accusantium officiis dicta, exercitationem nemo aspernatur fugiat facere sit repudiandae repellat dignissimos voluptatibus provident cum optio nostrum. Atque, autem?
+    <p class="aviso">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
     </p>
     
+    <!--Selector universal + clase-->
+    <p class="univ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non nostrum voluptates tempore eius. Aperiam labore necessitatibus deleniti dolorum officiis incidunt quo doloremque iste quod amet? Rem repudiandae blanditiis quod architecto?</p>
 
+    <!--Selector clase ej. 2-->
+    <div class="univ1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis doloremque repellat, corrupti earum libero aspernatur quod dolore tempora sed nostrum voluptatibus dignissimos minima ullam rem. Animi fuga facere sint mollitia!
+    </div>
     
-
 
 </body>
 </html>
