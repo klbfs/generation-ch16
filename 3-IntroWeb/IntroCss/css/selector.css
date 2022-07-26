@@ -19,9 +19,18 @@ div{
     padding: 10px;
 }
 div>p{ /*sólo afecta a los párrafos que no están dentro de otro tag*/
-    color: red;
+    color: rgb(255, 0, 0);
 }
-/*Selector padre*/
+/*Selector consecutivo*/
 div+p{
     color: blue;
 }
+
+/*Selector hermano: después del div*/
+div~p{
+    color: chartreuse;
+}
+
+p[atributo1]{
+    background-color: cornsilk;
+ }
