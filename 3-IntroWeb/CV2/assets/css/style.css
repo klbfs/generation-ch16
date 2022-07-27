@@ -1,0 +1,67 @@
+.contenedorNav{
+    width: 100%;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+    
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*main*/
+.main{
+    background-color: rgb(226, 224, 225);
+}
+.col-2{
+    width: 16.7%;
+    
+
+}
+.col-8{
+    width: 66.7%;
+}
+.contenedorTitulo{
+    display: flex;
+    height: 10em;
+    background-color: rgb(200, 198, 199);
+    
+    
+    
+}
+
+
+
+#KarenTitulo{
+    
+    
+    text-align: center;
+    line-height: 1em;
+    padding-top: 50px;
+    padding-bottom: auto;
+    font-size: 2em;
+    overflow: hidden;
+    
+}
+.contenedorImagen{
+    height: 2em;
+    width: 100%;
+}
