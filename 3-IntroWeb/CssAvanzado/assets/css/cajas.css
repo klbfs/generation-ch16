@@ -1,7 +1,18 @@
+html{
+    font-size: 16px;
+}
+
+.cuadro-padre{
+    font-size: 10px;
+}
 .cuadro{
     
-    width: 100px;
-    height: 100px;
+    height: 10em; 
+    /*em respecto a padre 'cuadro-padre' que tiene 10 px*/
+    width: 10em;
+
+   /* width: 100px;
+    height: 100px;*/
     /*margin: alrededor del contenido*/
    /* margin-top: 10px; 
     margin-left: 30px;

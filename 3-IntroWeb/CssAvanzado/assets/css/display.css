@@ -1,0 +1,79 @@
+.cuadro-padre{
+    display: flex;
+    /*FLEX DIRECTION*/
+    /*A) flex-direction: column;*/
+    /*B) flex-direction: row-reverse;*/
+    flex-direction: row;
+    background-color: rgba(210, 105, 30, 0.452);
+    height:600px;
+
+    /*ALINEADO*/
+    justify-content: center;
+    align-items: center;
+}
+.cuadro{
+    
+    width: 100px;
+    height: 100px;
+    margin: 20px 20px; /*up-down left-right*/
+    border-radius: 25px 50px 50px 25px; /*l, d, --*/
+    padding: 20px 40px 30px 10px; /*espaciado adentro del contedio up, der, ab, iz*/    
+}
+.el-1{
+    background-color: rgb(255, 2, 2);
+    align-self: baseline;
+    flex-grow: 2;
+    
+}
+.el-2{
+    background-color: rgb(204, 255, 0);
+    flex-grow: 1;
+    
+    
+
+}
+.el-3{
+    background-color: aquamarine;   
+    align-self: baseline;
+    flex-grow: 1;
+   
+    
+    
+     
+}
+.el-4{
+    background-color: rgb(45, 142, 142);  
+    flex-grow: 1;
+
+    
+}
+.el-5{
+    background-color: rgb(169, 160, 255);    
+    
+   
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+}
+.cuadroIcon{
+    margin: 20px 20px;
+}
+
+/*INTRODUCCIÓN A BOOTSRAP*/
+.contenedor{
+    height: 200px;
+    background-color: cornflowerblue;
+    max-width: 1200px;
+    margin: 0 auto; /*up-down izq-der*/
+}
+.fila{
+    display: flex;
+}
+.columna{
+    width: 33%;
+    border: 2px solid red;
+}
