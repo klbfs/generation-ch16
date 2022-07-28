@@ -1,9 +1,9 @@
 .contenedorNav{
     width: 100%;
-    position: sticky;
-    top:0;
+    
+   
 }
-ul {
+.nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ li {
     
 }
   
-li a {
+.nav-li a {
     display: block;
     color: white;
     text-align: center;
@@ -24,13 +24,14 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.nav-li a:hover {
     background-color: #111;
 }
 
 /*main*/
-.main{
-    background-color: rgb(226, 224, 225);
+.contenido{
+    background-color: rgb(200, 198, 199);
+   
 }
 .col-2{
     width: 16.7%;
@@ -43,16 +44,20 @@ li a:hover {
 }
 .col-6{
     width: 50%;
+   
+    
   
 }
 .col-3{
     width:25%;
+   
+    
     
 }
 .contenedorTitulo{
     display: flex;
     height: 10em;
-    background-color: rgb(200, 198, 199);
+    
     
     
     
@@ -89,6 +94,7 @@ li a:hover {
 .contenedor1{
     width: 100%;
     height:6em;
+    display: inline-flex;
 
 }
 .c1-r1{
@@ -106,20 +112,31 @@ li a:hover {
     background-color: rgb(185, 161, 104);
 
 }
-.formacion{
-    background-color: #111;
-    width: 100%;
-    height: 6em;
-    color: white;
-    text-align: center;
-    border-radius: 0px 9px 9px 0px;
-   
 
+.cuadro{
+    margin-right: 3px;
+    height: 2em;
+    width: 80%;
+    margin-left: 5%;
     
 }
-.texto{
-    padding-top: 30px;
-
+.cF_el-1{
+    background-color: #111;
+    
 }
+.cF_el-2{
+    position: relative;
+    background-color: rgb(159, 159, 159);
+    bottom: 1.5em;
+    left: 5%;
+    color: rgb(67, 67, 67);
+    text-align: center;
+    padding-top: 5%;
+}
+.textoCuadro{
 
-
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    font-size: 2.5vh;
+}
