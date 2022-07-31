@@ -1,0 +1,13 @@
+#title{
+    font-size: 3em;
+    height: 5em;
+    align-items: center;
+}
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+#menu ul li a{
+    color: white;
+}
