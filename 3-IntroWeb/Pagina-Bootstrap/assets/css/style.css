@@ -1,0 +1,19 @@
+.img-carousel{
+    /*calcular que se ajuste*/
+    /*100vh abarca la totalidad de la pantalla - altura de navbar(h. desarrollador)*/
+    height: calc(50vh - 114px); /**para que todas las img tengan misma altura*/
+    object-fit: cover;
+ 
+
+}
+.img-carta{
+    height: 300px;
+    object-fit: cover;
+}
+.c{
+    height: 20px;
+}
+.caja{
+    position: relative;
+    top: -50px;
+}
