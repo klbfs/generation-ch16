@@ -46,7 +46,7 @@ function nombre(){
     return (`Mi nombre es: ` + primero + paterno + materno);
 }
 
-console.log(nombre());
+//console.log(nombre());
 
 
 /*división*/
