@@ -9,7 +9,7 @@ de $200
 cantidad con la menor cantidad de billetes
 posible (se tienen billetes de $20, $100,
 $200, $500 y $1000) */
-
+//Casa patriarca
 let saldo = 10000;
 let retirar;
 function retiro(){
@@ -43,12 +43,19 @@ function retiro(){
             
 
         }
+        
+        
 
     }
+    
+
+    
+
+
     return saldo;
     
 }
 
 console.log("Saldo 1: ", retiro());
-console.log("Saldo 2: ", retiro());
+
 

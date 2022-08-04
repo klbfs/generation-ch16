@@ -8,7 +8,7 @@ del cajero.
 el saldo del cajero */
 
 
-
+//casa piscis
 let saldo = 10000;
 function consulta(){
     
@@ -16,5 +16,5 @@ function consulta(){
     saldo = saldo - retirar;
     return saldo
 }
-console.log("1",consulta()); 
-console.log("2",consulta()); 
+console.log("Saldo restante: "+ consulta()); 
+console.log("Saldo restante: "+consulta()); 
