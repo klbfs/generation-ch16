@@ -14,6 +14,7 @@ console.log(arrayPeople);
 The first person in line is called to the teller. What does the queue look like?
 */
 arrayPeople.splice(3,0,"Sara", "Agustin");
+arrayPeople.splice(0,1);
 console.log(arrayPeople);
 
 /*It turns out David was saving a spot for his friend Renata. 
@@ -21,7 +22,7 @@ She shows up and goes behind him in the line. One more person (Elena) shows up a
 What does the queue look like? 
 */
 
-arrayPeople.splice(2,0,"Renata");
+arrayPeople.splice(1,0,"Renata");
 console.log(arrayPeople);
 
 arrayPeople.push("Elena");

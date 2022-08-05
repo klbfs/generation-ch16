@@ -11,6 +11,14 @@ while(xValue>0){
 
 /*- Print all the odd numbers between 1 - 100.
 */
+let j = 1;
+while (j<101){
+    if ((j%2 != 0 & j%3!=0 & j%5!=0 & j%7!=0)| j===3 | j===5 | j===7){
+        console.log(j);
+    }
+    j++
+}
+
 
 
 /*- Write a method with a while loop to print 1 through n in square brackets. 
@@ -36,11 +44,11 @@ let ultimo = 5;
 
 function suma(contador, ultimo){
     let sum=0;
-    while(contador<ultimo+1){
+   while(contador<ultimo+1){
         sum = sum + contador;
         contador++;
     }
-    console.log(sum);
+    console.log(sum) ;
 }
 
 suma(contador, ultimo);
