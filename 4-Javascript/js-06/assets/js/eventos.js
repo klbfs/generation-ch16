@@ -20,3 +20,5 @@ formulario.addEventListener('submit',(e) => {
     e.preventDefault(); //con esto se deja de actualizar
     console.log(formulario[0].value); //aparece el input de tipo texto
 })
+
+//
