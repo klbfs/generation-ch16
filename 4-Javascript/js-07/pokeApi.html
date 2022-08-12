@@ -14,13 +14,14 @@
         <div class="row">
             <div class="col">
                 <!--Formulario-->
-                <form class="bg-dark p-4 text-white mt-4 rounded-lg">
+                <form class="bg-dark p-4 text-white mt-4 rounded-lg" id="formulario">
                     <div class="form-group my-3">
-                      <label for="exampleInputEmail1">Escribe el nombre del pokemon</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <!--label e input tienen mismo 'busquedaPokemon'-->
+                      <label for="busquedaPokemon">Escribe el nombre del pokemon</label>
+                      <input type="text" class="form-control" id="busquedaPokemon" aria-describedby="emailHelp">
                       
                     </div>
-                    
+                    <!--tipo submit y se ocupa en evento-->
                     <button type="submit" class="btn btn-primary w-100">Enviar</button>
                 </form>
             </div>
@@ -45,10 +46,8 @@
                       Habilidades
                     </div>
 
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">An item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
+                    <ul class="list-group list-group-flush" id="listaHabilidades">
+                      <!--<li-- class="list-group-item">An item</li-->
                     </ul>
                 </div>
             </div>
@@ -59,10 +58,8 @@
                       Tipos
                     </div>
 
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">An item</li>
-                      <li class="list-group-item">A second item</li>
-                      <li class="list-group-item">A third item</li>
+                    <ul class="list-group list-group-flush" id="listaTipos">
+                      <!--Se agregan tipos en JS-->
                     </ul>
                 </div>
         </div>
