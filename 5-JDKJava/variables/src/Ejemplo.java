@@ -24,7 +24,7 @@ public class Ejemplo {
          */
         //clase 'Character' wrapea o envuelve a char
         System.out.println("char corresponde en byte: "+ Character.BYTES); //1 char tien 2 bytes (16 bits)
-        System.out.println("char corresponde en byte: "+ Character.SIZE);
+        System.out.println("char corresponde en bits: "+ Character.SIZE);
         System.out.println("char valor máximo: " + Character.MAX_VALUE); //Un caracter
         System.out.println("char valor mÍnimo: " + Character.MIN_VALUE); //Un caracter
 
@@ -71,7 +71,7 @@ public class Ejemplo {
         System.out.println("Short valor mínimo = " + Short.MIN_VALUE);
 
         byte numeroByte = 1;
-        System.out.println("Byte = "+ numeroLong);
+        System.out.println("Byte = "+ numeroByte);
         System.out.println("Byte corresponde en byte = " + Byte.BYTES);
         System.out.println("Byte corresponde en bits = " + Byte.SIZE);
         System.out.println("Byte valor máximo = " + Byte.MAX_VALUE);
