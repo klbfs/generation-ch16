@@ -1,5 +1,6 @@
 public class Saludo {
-
+    String textoS = "Hola Mundo 2022"; //variable de instancia
+    Integer a = 10;
     void saludar(){
         System.out.println("Hola Java OOP");
     }
@@ -7,7 +8,7 @@ public class Saludo {
 
     //toda función que no ocupe void, lleva return
     String saludar01(){
-        String textoS = "Hola Mundo 2022";
+
         return textoS;
     }
 
