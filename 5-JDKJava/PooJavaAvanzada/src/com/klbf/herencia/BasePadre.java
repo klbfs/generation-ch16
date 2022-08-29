@@ -3,7 +3,7 @@ package com.klbf.herencia;
 import java.util.Scanner;
 
 public class BasePadre {
-    protected int a; // lo puede ver la clase padre e hijos
+    protected int a; // protected lo puede ver la clase padre e hijos
     private double b;
     private String c;
 
