@@ -2,6 +2,7 @@ package com.klbf.principal;
 
 
 import com.klbf.h_abstracta.Circulo;
+import com.klbf.h_abstracta.Cuadrado;
 import com.klbf.h_abstracta.Triangulo;
 
 // Es mi clase principal (ocupamos main)
@@ -24,6 +25,12 @@ public class EjemploFigura {
         Circulo circulo1 = new Circulo();
         circulo1.setRadio(2f);
         System.out.println("Area de circulo: " + circulo1.area());
+
+
+        // ----------------Cuadrado
+        Cuadrado cuadrado1 = new Cuadrado();
+        cuadrado1.setLado(5);
+        System.out.println("Area de cuadrado = " + cuadrado1.area());
 
 
 

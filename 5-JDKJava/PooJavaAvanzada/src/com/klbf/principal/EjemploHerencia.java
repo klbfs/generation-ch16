@@ -13,10 +13,12 @@ public class EjemploHerencia {
 
 
 
-        BasePadre obj = new BasePadre();
+        BasePadre obj = new BasePadre(); // instancia
         obj.setA(2357);
         // Con Clase Hija puedo acceder a los métodos y atributos de BasePadre
-        Hija h = new Hija();
+
+
+        Hija h = new Hija(); // instancia
         h.setA(2);
         System.out.println(" Atributo 'a' de papá: " + obj.getA()); // no se puede acceder poque es privado
         System.out.println(" Atributo 'a' de hija: " + h.getA());

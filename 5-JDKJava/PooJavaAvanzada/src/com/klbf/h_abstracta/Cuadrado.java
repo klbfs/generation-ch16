@@ -1,18 +1,26 @@
 package com.klbf.h_abstracta;
 
 public class Cuadrado extends FigurasGeometricas{
-    private float b;
+    private float lado;
+
+
+    // Método abstracto - definimos particularidad de área en cuadrado
 
     @Override
     public float area() {
-        return (getB());
+
+        return (float)(Math.pow(getLado(),2));
     }
 
-    public float getB() {
-        return b;
+
+    // Métodos GET y SET
+
+
+    public float getLado() {
+        return lado;
     }
 
-    public void setB(float b) {
-        this.b = b;
+    public void setLado(float lado) {
+        this.lado = lado;
     }
 }
